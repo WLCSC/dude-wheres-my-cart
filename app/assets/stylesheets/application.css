@@ -1,0 +1,56 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower|Oxygen:400,700);
+
+body {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oxygen', 'sans-serif';
+}
+
+#main {
+    width: 600px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+header {
+    background: #d2ff52; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d2ff52 0%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2ff52), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #d2ff52 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #d2ff52 0%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #d2ff52 0%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #d2ff52 0%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    padding: 16px;
+    margin: 0;
+}
+
+header h1 {
+font-family: 'Indie Flower', 'cursive';
+font-size: 36px;
+}
+
+.cartName {
+    font-weight: bold;
+    font-size: 16px;
+}
