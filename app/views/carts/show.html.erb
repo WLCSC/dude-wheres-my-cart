@@ -10,5 +10,5 @@
   <%= @cart.location %>
 </p>
 
-<%= link_to 'Edit', edit_cart_path(@cart) %> |
+<% if admin? %><%= link_to 'Edit', edit_cart_path(@cart) %> | <% end %>
 <%= link_to 'Back', carts_path %>
